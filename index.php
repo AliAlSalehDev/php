@@ -1,4 +1,5 @@
 <?php
+// User Controller
 require_once "controllers/UserController.php";
 $controller = new UserController();
 $users = $controller->getUsers();
